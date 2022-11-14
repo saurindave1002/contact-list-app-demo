@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.addbtn:hover {
+
+  box-shadow: 0 0 16px 6px rgba(1, 7, 57, 0.08);
+  border-color: rgb(7, 7, 7);
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: #008CBA;
+}
+
+.col-md-4 {
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 30px;
+  border: solid 1px rgba(244, 243, 246, 0.6);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px 3px rgba(8, 8, 8, 0.08);
+}
+
+.card-title {
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: darkgray;
+}
+
+.card-text .fa {
+  font-size: 26px;
+}
+
+.card .card-body {
+  color: darkolivegreen;
+}
+
+
+footer p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer p a,
+footer p a:hover {
+  color: rgb(99, 204, 131);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+
+.avatar {
+  width: 140px;
+  margin: auto;
+
+}
+
+.avatar img {
+  border: solid 6px transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png) no-repeat scroll 0 0;
+
+}
+
+.card:hover .avatar img {
+  border-color: rgb(99, 204, 131);
+}
